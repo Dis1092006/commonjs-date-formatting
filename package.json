@@ -1,0 +1,11 @@
+{
+  "name": "commonjs-date-formatting",
+  "version": "1.0.0",
+  "description": "Date Formatting Support (strftime) for CommonJS + Node.js",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dis1092006/commonjs-date-formatting.git"
+  },
+  "homepage": "https://github.com/Dis1092006/commonjs-date-formatting#readme"
+}
