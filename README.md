@@ -1,5 +1,4 @@
-Date Formatting Support (strftime) for CommonJS + Node.js
-===========================================
+# Date Formatting Support (strftime) for CommonJS + Node.js
 
 This CommonJS module provides PHP-style date formatting support (strftime),
 to allow you to print javascript dates according to a format specifier.
@@ -8,21 +7,22 @@ Based heavily on Philip S Tellis' version for client side javascript.
 
 Tested on node.js. 
 
-Install:
---------
-    cd ~/.node_libraries
-    git clone git://github.com/loopj/commonjs-date-formatting.git date_format
+## About this fork
 
-Basic usage:
------------
+This repository is a fork of [this repo](https://github.com/loopj/commonjs-date-formatting). I decided to fork that because I needed use of the module via NPM.
+
+## Install:
+    cd ~/.node_libraries
+    git clone https://github.com/Dis1092006/commonjs-date-formatting.git
+
+## Basic usage:
     // Load the module
     var strftime = require("date_format").strftime;
 
     // Print the current date in mm/dd/yyyy format
     console.log(strftime(new Date(), "%m/%d/%Y"));
 
-Supported Format Specifiers:
--------------------------
+## Supported Format Specifiers:
 - %a - abbreviated weekday name according to the current locale
 - %A - full weekday name according to the current locale
 - %b - abbreviated month name according to the current locale
